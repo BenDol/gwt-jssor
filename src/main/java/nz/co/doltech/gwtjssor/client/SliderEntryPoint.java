@@ -23,7 +23,7 @@ public class SliderEntryPoint implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
-        inject(SliderClientBundle.INSTANCE.jssorSlider(), true, false);
+        inject(SliderClientBundle.INSTANCE.jssorSlider(), false, true);
     }
 
     protected void inject(TextResource resource, boolean removeTag, boolean sourceUrl) {

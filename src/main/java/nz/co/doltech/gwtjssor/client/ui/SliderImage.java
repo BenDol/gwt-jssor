@@ -1,16 +1,16 @@
 package nz.co.doltech.gwtjssor.client.ui;
 
 import com.google.gwt.dom.client.Style;
-import com.google.gwt.user.client.ui.ComplexPanel;
+import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.Image;
 
-public class SliderImage extends ComplexPanel {
+public class SliderImage extends AbsolutePanel {
 
     private final Image image;
     private final Image thumbnail;
 
     public SliderImage(String imageUrl, String thumbUrl) {
-        getElement().setAttribute("data-p", "144.50");
+        getElement().setAttribute("data-p", "166.50");
         getElement().getStyle().setDisplay(Style.Display.NONE);
 
         thumbnail = new Image(thumbUrl);

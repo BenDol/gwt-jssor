@@ -27,7 +27,7 @@ public class ThumbnailOptions extends JavaScriptObject {
     }-*/;
 
     public native final void setDefaults() /*-{
-        this.$Class = $JssorThumbnailNavigator$;
+        this.$Class = $wnd.$JssorThumbnailNavigator$;
         this.$Cols = 10;
         this.$SpacingX = 8;
         this.$SpacingY = 8;
